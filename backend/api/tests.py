@@ -2,7 +2,7 @@
 from http import HTTPStatus
 
 from api import models
-from django.test import Client, TestCase
+from django.test import Client, TestCase # pyright: ignore[reportMissingModuleSource]
 
 class TaskiAPITestCase(TestCase):
     def setUp(self):
